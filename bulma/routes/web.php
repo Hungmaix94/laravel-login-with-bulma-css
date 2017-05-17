@@ -12,16 +12,8 @@
 */
 
 Route::get('/', 'HomeController@index');
+
 Auth::routes();
-
-
-Route::group(['prefix'=>'api', 'namespace' => 'Api', 'middleware'=>'auth'], function() {
-
-	Route::resource('radio', 'RadioController');
-	
-
-});
-
 
 Route::get('{page?}', [
         'as' => 'dashboard',
