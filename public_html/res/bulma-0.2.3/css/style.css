@@ -1,0 +1,30 @@
+.container{
+	max-width: 990px !important;
+}
+
+.column{
+	padding: 10px;
+}
+
+.overlay{
+	position: absolute;
+	z-index: 1000;
+	background-color: rgba(0,0,0,.7);
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: none;
+}
+
+.popup{
+	position: absolute;
+	top: 50%;
+	width: 800px;
+	height: 306px;
+	margin-top: -153px;
+	margin-left: -400px;
+	background-color: #fff;
+	left: 50%;
+
+}
