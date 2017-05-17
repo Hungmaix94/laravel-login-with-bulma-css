@@ -1,0 +1,172 @@
+html,body {
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+
+/*login*/
+
+.email-input,
+.password-input {
+	border-radius: 40px;
+	font-size: 20px;
+	padding-left: 15px;
+	color: #95A5A6;
+}
+
+.icon.user,
+.icon.password {
+	margin: 5px 10px 0 0;
+}
+
+.avatar img {
+	border-radius: 100px;
+	padding: 5px;
+	border: 1px solid #dbdbdb;
+}
+
+.forgot-password a {
+	color: #95A5A6;
+	font-weight: bold;
+	padding-right: 20px;
+}
+
+.login {
+	padding-top: 20px;
+}
+
+.login button {
+	border-radius: 40px;
+	font-weight: bold;
+}
+
+.hero-body .container {
+	margin-top: -100px;
+}
+
+.hero.is-dark .section {
+	background-color: transparent;
+}
+
+.login-wrapper {
+	margin: -0.75rem;
+	overflow-y: hidden;
+}
+
+.hero-banner .hero {
+	background: url('https://unsplash.it/2000/1000');
+	background-position: center;
+	background-size: cover;
+	background-blend-mode: screen;
+}
+
+.hero-banner .title {
+	display: inline-block;
+	background-color: rgba(0,0,0, 0.6);
+	padding: 5px;
+}
+
+
+/*admin*/
+
+.button.is-success {
+  background-color: #2EB398;
+}
+.nav.is-dark {
+  background-color: #232B2D;
+  color: #F6F7F7;
+}
+.nav.is-dark .nav-item a, .nav.is-dark a.nav-item {
+    color: #F6F7F7;
+}
+.nav.is-dark .nav-item a.button.is-default {
+    color: #F6F7F7;
+    background-color: transparent;
+    border-width: 2px;
+}
+.aside {
+  background-color: #354052;
+  margin-right: -10px;
+}
+.aside .main {
+  padding: 40px;
+  color: #6F7B7E;
+}
+.aside .title {
+  color: #6F7B7E;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.aside .main .item {
+  display: block;
+  padding: 10px 0;
+  color: #6F7B7E;
+}
+.aside .main .item.active {
+  color: #F6F7F7;
+}
+.aside .main .icon {
+  font-size: 19px;
+  padding-right: 30px;
+}
+.aside .main .name {
+  font-size: 16px;
+  font-weight: bold;
+}
+.admin-panel {
+  padding-bottom: 0;
+}
+.content {
+  display: block;
+  background-color: #fff;
+  padding: 40px 20px;
+}
+.hero .tabs ul {
+    border-bottom: 1px solid #d3d6db;
+}
+
+
+
+/*random*/
+
+.textLeftInput {
+	text-align: left;
+}
+
+.fixedDiv {
+	background-color: white;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	border-top: 1px solid red;
+}
+
+
+/*dropdown*/
+.sub-menu-parent{ 
+	position: relative; 
+}
+
+.sub-menu { 
+	visibility: hidden; /* hides sub-menu */
+	opacity: 0;
+	position: absolute;
+	padding: 10px 0;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	transform: translateY(-2em);
+	z-index: -1;
+	transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+}
+
+.sub-menu-parent:hover .sub-menu {
+	visibility: visible; /* shows sub-menu */
+	opacity: 1;
+	z-index: 1;
+	transform: translateY(0%);
+	transition-delay: 0s, 0s, 0.3s; /* this removes the transition delay so the menu will be visible while the other styles transition */
+}
