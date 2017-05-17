@@ -25,11 +25,11 @@
 </head>
 <body>
 	<div class="columns">	
-		<aside class="column is-2 aside hero is-fullheight is-hidden-mobile">
+		<aside class="column is-narrow hero is-fullheight is-hidden-mobile">
 			@include('vendor.menu')
 		</aside>
 
-		<div class="column is-10 admin-panel">
+		<div class="column admin-panel">
 			@include('vendor.header')
 
 			@yield('content')

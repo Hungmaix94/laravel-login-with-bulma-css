@@ -5,6 +5,9 @@ html,body {
 	margin: 0;
 }
 
+header{
+	padding: 0 0 20px 0;
+}
 
 /*login*/
 
@@ -89,6 +92,7 @@ html,body {
 aside {
   background-color: #354052 !important;
   padding: 40px !important;
+  width: 222px;
 }
 
 aside .title {
@@ -118,19 +122,19 @@ aside nav .name {
 .admin-panel {
   padding-bottom: 0;
 }
+
 .content {
   display: block;
   background-color: #fff;
   padding: 40px 20px;
 }
+
 .hero .tabs ul {
     border-bottom: 1px solid #d3d6db;
 }
 
 
-
 /*random*/
-
 .textLeftInput {
 	text-align: left;
 }
@@ -142,7 +146,6 @@ aside nav .name {
 	width: 100%;
 	border-top: 1px solid red;
 }
-
 
 /*dropdown*/
 .sub-menu-parent{ 

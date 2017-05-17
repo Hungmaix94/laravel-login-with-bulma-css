@@ -1,0 +1,7 @@
+_HiStOrY_V2_
+$user\040=\040new\040App\\User;
+$user->name\040=\040"Stefan";
+$user->email\040=\040"dev@livenetworks.mk"
+$user->password\040=\040\\Hash::make('stefan123');
+$user->save();
+exit
