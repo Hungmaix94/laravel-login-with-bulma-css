@@ -8,19 +8,17 @@
 	<!-- CSRF Token -->
 	<meta name="csrf-token" content="{{ csrf_token() }}">
 
-	<title>{{ config('app.name', 'Laravel') }}</title>
+	<title>Admin</title>
 
 	<!-- Styles -->
 
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.2/css/bulma.min.css">
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.2/css/bulma.min.css"> -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	
-	<link rel="stylesheet" type="text/css" href="{{asset('/css/uploadFile.css')}}">
-	<link rel="stylesheet" type="text/css" href="{{asset('/css/bulma.css')}}">
-	<link rel="stylesheet" type="text/css" href="{{asset('/css/morris.css')}}">
-	<link rel="stylesheet" type="text/css" href="{{asset('/css/admin.css')}}">
-	<link rel="stylesheet" type="text/css" href="{{asset('/css/random.css')}}">
-	<link rel="stylesheet" type="text/css" href="{{asset('/css/style.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{asset('res/css/uploadFile.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{asset('res/css/bulma.css')}}">
+
+	<link rel="stylesheet" type="text/css" href="{{asset('res/css/style.css')}}">
 
 
 	<!-- Scripts -->

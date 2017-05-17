@@ -3,7 +3,7 @@
 		<div class="columns">
 			<div class="column">            
 				<a href="{{ url('/home') }}">
-					{{ config('app.name', 'Radio') }}
+					<!-- {{ config('app.name', 'Bulma') }} -->
 				</a>
 			</div>
 			<div class="column has-text-right">
