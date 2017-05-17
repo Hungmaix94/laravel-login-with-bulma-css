@@ -24,17 +24,15 @@
 	</script>
 </head>
 <body>
-	<div id="app">	
-		<div class="columns">	
-			<aside class="column is-2 aside hero is-fullheight is-hidden-mobile">
-				@include('vendor.menu')
-			</aside>
+	<div class="columns">	
+		<aside class="column is-2 aside hero is-fullheight is-hidden-mobile">
+			@include('vendor.menu')
+		</aside>
 
-			<div class="column is-10 admin-panel">
-				@include('vendor.header')
+		<div class="column is-10 admin-panel">
+			@include('vendor.header')
 
-				@yield('content')
-			</div>
+			@yield('content')
 		</div>
 	</div>
 	<!-- Scripts -->

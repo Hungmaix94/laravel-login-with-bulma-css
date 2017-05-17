@@ -86,36 +86,35 @@ html,body {
     background-color: transparent;
     border-width: 2px;
 }
-.aside {
-  background-color: #354052;
-  margin-right: -10px;
+aside {
+  background-color: #354052 !important;
+  padding: 40px !important;
 }
-.aside .main {
-  padding: 40px;
-  color: #6F7B7E;
-}
-.aside .title {
+
+aside .title {
   color: #6F7B7E;
   font-size: 12px;
   font-weight: bold;
   text-transform: uppercase;
 }
-.aside .main .item {
+aside nav .item {
   display: block;
   padding: 10px 0;
   color: #6F7B7E;
 }
-.aside .main .item.active {
+aside nav .item.active {
   color: #F6F7F7;
 }
-.aside .main .icon {
-  font-size: 19px;
+
+aside nav .icon .fa {
+  font-size: 15px;
   padding-right: 30px;
 }
-.aside .main .name {
+aside nav .name {
   font-size: 16px;
   font-weight: bold;
 }
+
 .admin-panel {
   padding-bottom: 0;
 }

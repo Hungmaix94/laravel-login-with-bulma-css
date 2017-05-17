@@ -1,4 +1,4 @@
-<div class="main">
+<div>
 	<h1 class="title">Admin</h1>
 
 	<nav>
