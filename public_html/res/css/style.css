@@ -19,6 +19,10 @@ header{
 	color: #95A5A6;
 }
 
+.control{
+	padding-bottom: 10px !important;
+}
+
 .icon.user,
 .icon.password {
 	margin: 5px 10px 0 0;
